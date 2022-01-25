@@ -24,7 +24,7 @@ class Opion():
         self.fixed_mask = 1
         self.use_dropout = False
         self.init_type = 'normal'
-        self.mask_type = 'center'
+        self.mask_type = 'random'
         self.lambda_A = 100
         self.threshold = 5 / 16.0
         self.stride = 1
